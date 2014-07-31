@@ -1,0 +1,14 @@
+{
+  "name": "faker",
+  "main": "./lib/faker",
+  "version": "0.0.1",
+  "description": "Simple faker.js wrapper",
+  "repository": "https://github.com/iori-o/faker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "faker": "1.0.0"
+  }
+}
