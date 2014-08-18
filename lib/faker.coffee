@@ -1,5 +1,5 @@
 faker    = require 'faker'
-commands = require "./commands"
+commands = require './commands'
 
 module.exports =
   activate: (state) ->
