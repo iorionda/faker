@@ -2,25 +2,25 @@ module.exports =
   # [TODO] - Add more commands
   Commands =
     Name:
-      firstName:"firstName"
-      lastName: "lastName"
-      fullName: "findName"
+      firstName:'firstName'
+      lastName: 'lastName'
+      fullName: 'findName'
     Address:
-      zipCode: "zipCode"
-      city: "city"
-      streetName: "streetName"
-      streetAddress: "streetAddress"
-      usState: "usState"
-      latitude: "latitude"
-      longitude: "longitude"
+      zipCode:       'zipCode'
+      city:          'city'
+      streetName:    'streetName'
+      streetAddress: 'streetAddress'
+      usState:       'usState'
+      latitude:      'latitude'
+      longitude:     'longitude'
     Lorem:
-      sentence: "sentence"
-      sentences: "sentences"
+      sentence:  'sentence'
+      sentences: 'sentences'
     Internet:
-      email: "email"
-      userName: "userName"
-      domainName: "domainName"
-      domainWord: "domainWord"
-      ip:"ip"
+      email:      'email'
+      userName:   'userName'
+      domainName: 'domainName'
+      domainWord: 'domainWord'
+      ip:         'ip'
     Image:
-      imageUrl: "imageUrl"
+      imageUrl: 'imageUrl'
