@@ -2,9 +2,11 @@ module.exports =
   # [TODO] - Add more commands
   Commands =
     Name:
-      firstName:'firstName'
-      lastName: 'lastName'
-      fullName: 'findName'
+      firstName:       'firstName'
+      lastName:        'lastName'
+      fullName:        'findName'
+      firstNameFemale: 'firstNameFemale'
+      firstNameMale:   'firstNameMale'
     Address:
       zipCode:       'zipCode'
       city:          'city'
