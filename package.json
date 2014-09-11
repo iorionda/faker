@@ -1,7 +1,7 @@
 {
   "name": "faker",
   "main": "./lib/faker",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Simple faker.js wrapper",
   "repository": "https://github.com/iori-o/faker",
   "license": "MIT",
