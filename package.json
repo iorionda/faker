@@ -3,12 +3,86 @@
   "main": "./lib/faker",
   "version": "0.1.0",
   "description": "Simple faker.js wrapper",
-  "repository": "https://github.com/iori-o/faker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iori-o/faker.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
     "faker": "1.0.0"
+  },
+  "readme": "# faker package\n\nSimple faker.js wrapper for Atom\n\n![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/iori-o/faker/issues"
+  },
+  "homepage": "https://github.com/iori-o/faker#readme",
+  "_id": "faker@0.1.0",
+  "_shasum": "40652eb5c701ed0da0f08b27de3a5a14aab650b3",
+  "_resolved": "file:../d-116223-7245-22j3yz/package.tgz",
+  "_from": "../d-116223-7245-22j3yz/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "faker",
+        "version": "1.0.0",
+        "path": "node_modules/faker/index.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/commands.coffee",
+        "lib/faker.coffee"
+      ],
+      ".js": [
+        "node_modules/faker/BUILD/BUILD.js",
+        "node_modules/faker/BUILD/Mustache.js",
+        "node_modules/faker/BUILD/docs.js",
+        "node_modules/faker/BUILD/main.js",
+        "node_modules/faker/examples/js/faker.js",
+        "node_modules/faker/examples/js/jquery.js",
+        "node_modules/faker/examples/js/prettyPrint.js",
+        "node_modules/faker/examples/library_test.js",
+        "node_modules/faker/examples/node_generateSet.js",
+        "node_modules/faker/examples/node_min_test.js",
+        "node_modules/faker/faker.js",
+        "node_modules/faker/index.js",
+        "node_modules/faker/lib/address.js",
+        "node_modules/faker/lib/company.js",
+        "node_modules/faker/lib/date.js",
+        "node_modules/faker/lib/definitions.js",
+        "node_modules/faker/lib/helpers.js",
+        "node_modules/faker/lib/image.js",
+        "node_modules/faker/lib/internet.js",
+        "node_modules/faker/lib/lorem.js",
+        "node_modules/faker/lib/name.js",
+        "node_modules/faker/lib/phone_number.js",
+        "node_modules/faker/lib/random.js",
+        "node_modules/faker/lib/tree.js",
+        "node_modules/faker/lib/version.js",
+        "node_modules/faker/minfaker.js"
+      ],
+      ".json": [
+        "node_modules/faker/examples/bigDataSet.json",
+        "node_modules/faker/examples/dataSet.json",
+        "node_modules/faker/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "faker": "1.0.0"
+        }
+      }
+    ]
   }
 }
