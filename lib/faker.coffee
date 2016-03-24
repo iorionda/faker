@@ -10,7 +10,6 @@ module.exports =
       @commandsJson = JSON.parse content
       for className of @commandsJson.commands
         for commandName of @commandsJson.commands[className]
-          console.log(className, commandName)
           createCommands(className, commandName)
 
 createCommands = (className, commandName) ->
